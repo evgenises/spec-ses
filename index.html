@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уничтожение насекомых и вредителей | Профессиональная дезинсекция</title>
+    <!-- Подключаем внешние стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <div class="container header-wrapper">
+            <a href="#" class="logo">🛡️ СпецСЭС</a>
+            <div class="contacts">
+                <a href="tel:+79922224907">+7 (992) 222-49-07</a>
+                <p>Работаем круглосуточно, выезд в день обращения</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container">
+            <h1>Уничтожение насекомых </h1>
+            <p>Избавим от тараканов, клопов, муравьев и блох за 45 минут без вреда для детей и животных</p>
+            <a href="#calculator" class="btn">Рассчитать стоимость</a>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="container">
+        <h2>Что мы уничтожаем</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>🪳 Тараканы</h3>
+                <p>Полное уничтожение популяции и обработка барьером от повторного проникновения.</p>
+            </div>
+            <div class="service-card">
+                <h3>🛏️ Клопы</h3>
+                <p>Выведение постельных клопов безопасными препаратами без запаха. Спите спокойно.</p>
+            </div>
+            <div class="service-card">
+                <h3>🐜 Муравьи</h3>
+                <p>Уничтожение гнезд и маток как в квартирах, так и на загородных участках.</p>
+            </div>
+            <div class="service-card">
+                <h3>🦟 Клещи и осы</h3>
+                <p>Сезонная обработка дачных участков и открытых территорий от опасных вредителей.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Калькулятор стоимости -->
+    <section id="calculator" class="calc-section">
+        <div class="container">
+            <h2>Онлайн-калькулятор обработки</h2>
+            <div class="calc-box">
+                <div class="form-group">
+                    <label for="pest-type">Кого необходимо уничтожить?</label>
+                    <select id="pest-type">
+                        <option value="Тараканы / Муравьи">Тараканы / Муравьи</option>
+                        <option value="Постельные клопы">Постельные клопы</option>
+                        <option value="Комплексная обработка">Комплексная обработка</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="room-area">Укажите площадь помещения (кв. м)</label>
+                    <input type="number" id="room-area" value="40" min="1" max="10000">
+                </div>
+                <div class="result-price">
+                    Итоговая стоимость: <span id="price-value">5600</span> руб.
+                </div>
+            </div>
+        </div>
+    </section>
+
+           <!-- Новая защищенная форма захвата -->
+    <section class="order-form">
+        <div class="container form-wrapper" style="text-align: center;">
+            <h2>Оставьте заявку на выезд мастера</h2>
+            <p style="margin-bottom: 20px; color: #666;">Нажмите на кнопку ниже, чтобы мгновенно связаться с мастером в ВК и рассчитать точную стоимость.</p>
+            
+            <!-- Эта ссылка мгновенно и напрямую открывает чат во ВКонтакте -->
+            <a href="https://vk.com/tarakanov2222" id="submit-btn" class="btn full-width" style="display: block; text-align: center; text-decoration: none; box-sizing: border-box; padding: 15px; background-color: #ff6600; color: white; font-weight: bold; border-radius: 4px;">
+    💬 Рассчитать стоимость в чате ВК
+</a>
+
+        </div>
+    </section>
+
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Служба дезинсекции «СпецСЭС». Все права защищены.</p>
+            <p class="oferta">Информация на сайте не является публичной офертой.</p>
+        </div>
+    </footer>
+
+    <!-- Подключаем внешний JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
